@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contact - LaFlateporme.io</title>
+        <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.4.95/css/materialdesignicons.min.css" />
+        <link rel="stylesheet" href="laplateforme.css" />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul id="brand">
+                    <li>
+                        <a href="accueil.html"><img src="ressources/laflateporme.png" alt="Logo"/></a>
+                    </li>
+                </ul>
+                <ul id="menu">
+                    <li>
+                        <a href="accueil.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-start" href="#">Les formations <span class="mdi mdi-chevron-down"></span></a>
+                        <ul class="dropdown">
+                            <li><a href="coding.html">Coding School</a></li>
+                            <li><a href="digital.html">Centrale Digital Lab</a></li>
+                            <li><a href="executive.html">Executive Education</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <div class="search_bar_executive">
+                            <form role="search" method="get" action="https://laplateforme.io/">
+                                <input type="search" placeholder="Rechercher …" value="" name="s"
+                                    title="Rechercher:"> </form>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contact">
+            <h1>Vous souhaitez des informations ou candidater à La Flateporme_ ?</h1>
+            <article class="contact-form">
+                <h2>Remplissez ce formulaire et nous reviendrons vers vous !</h2>
+                <form method="get" action=".">
+                    <div class="columns">
+                        <div class="column">
+                            <label for="formations">La formation qui vous intéresse</label>
+                            <select id="formations">
+                                <option value="coding">Coding School</option>
+                                <option value="digital">Centrale Digital Lab</option>
+                                <option value="executive">Executive Education</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <label for="prenom">Votre prénom</label>
+                            <input type="text" minlength="3" required name="prenom" />
+                        </div>
+
+                        <div class="column">
+                            <label for="nom">Votre nom</label>
+                            <input type="text" minlength="3" required name="nom" />
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" required name="email" placeholder="exemple@gmail.com" />
+                        </div>
+
+                        <div class="column">
+                            <label for="tel">Votre téléphone</label>
+                            <input type="tel" minlength="3" name="tel" placeholder="0612345678" />
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <label for="adresse">Votre adresse</label>
+                            <input type="text" name="adresse" />
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <label for="codePostal">Votre code postal</label>
+                            <input type="text" minlength="3" name="codePostal" />
+                        </div>
+                        <div class="column">
+                            <label for="ville">Votre ville</label>
+                            <input type="text" name="ville" minlength="3" />
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <label for="commentConnus">Comment nous avez-vous connus ?</label>
+                            <input name="commentConnus" type="text" minlength="3" required />
+                        </div>
+                        <div class="column">
+                            <label for="niveauEtude"> Quel est votre niveau d'étude?</label>
+                            <input type="text" minlength="3" required name="niveauEtude" />
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <label for="message">Votre message</label>
+                            <textarea rows="4" name="message" autocomplete></textarea>
+                        </div>
+                    </div>
+
+                    <div class="columns">
+                        <div class="column">
+                            <input type="submit" value="Envoyer" />
+                        </div>
+                    </div>
+                </form>
+            </article>
+        </section>
+        <section class="content">
+            <h2>Une autre question ?</h2>
+            <p>
+                Nous sommes aussi joignables :
+            </p>
+            <ul>
+                <li>Par e-mail <a href="mailto:contact@laplateforme.io">contact@laflateporme.io</a>. Nous vous répondrons dans un délais de 24h</li>
+                <li>Par téléphone au <a href="tel:+33484894369">04.84.89.43.69</a> du lundi au vendredi de 9h à 18h</li>
+                <li>
+                    Sur les réseaux sociaux:
+                    <ul class="social">
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/LaPlateformeIO" title="Facebook" class="mdi mdi-24px mdi-facebook"></a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/company/laplateformeio" title="LinkedIn" class="mdi mdi-24px mdi-linkedin"></a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/LaPlateformeIO" title="Twitter" class="mdi mdi-24px mdi-twitter"></a>
+                        </li>
+                        <li class="instagram">
+                            <a href="https://www.instagram.com/LaPlateformeIO" title="Instagram" class="mdi mdi-24px mdi-instagram"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>
+                <a href="ressources/Download/Brochure/laplateforme_brochure.pdf" title="Brochure">
+                    Télécharger notre brochure
+                </a>
+            </h2>
+            <div class="columns">
+                <div class="column" style="align-items: center;">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe
+                                width="800"
+                                height="450"
+                                id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=8%20rue%20d'hozier&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0"
+                                scrolling="no"
+                                marginheight="0"
+                                marginwidth="0"
+                            ></iframe>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 450px;
+                                width: 800px;
+                            }
+
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none !important;
+                                height: 450px;
+                                width: 800px;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="columns">
+                <div class="column" style="text-align: center;">
+                    <img src="ressources/laplateforme2.png" height="192" alt="Logo" />
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>La Flateporme_</li>
+                        <li><a href="accueil.html">Accueil</a></li>
+                        <li><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                        <li><a href="ressources/Download/Brochure/laplateforme_brochure.pdf">Notre brochure</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li>Les formations</li>
+                        <li><a href="coding.html">Coding School</a></li>
+                        <li><a href="digital.html">Centrale Digital Lab</a></li>
+                        <li><a href="executive.html">Executive Program</a></li>
+                    </ul>
+                </div>
+                <div class="column" style="text-align: center;">
+                    <a href="contact.html" class="moreinfo-button">En savoir plus <span class="mdi mdi-24px mdi-chevron-right"></span></a>
+                    <p>Rejoignez-nous sur les réseaux sociaux !</p>
+                    <ul class="social">
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/LaPlateformeIO" title="Facebook" class="mdi mdi-24px mdi-facebook"></a>
+                        </li>
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/company/laplateformeio" title="LinkedIn" class="mdi mdi-24px mdi-linkedin"></a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/LaPlateformeIO" title="Twitter" class="mdi mdi-24px mdi-twitter"></a>
+                        </li>
+                        <li class="instagram">
+                            <a href="https://www.instagram.com/LaPlateformeIO" title="Instagram" class="mdi mdi-24px mdi-instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
